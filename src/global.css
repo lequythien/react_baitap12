@@ -1,0 +1,54 @@
+button{
+    background-color: aqua; 
+    padding: 15px 30px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 5px 8px rgba(30, 255, 233, 0.441);
+    cursor: pointer;
+    font-size: 25px;
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /*nhảy ảnh xuống hàng*/
+
+}
+
+.image img{
+    border: 1px solid gray;
+    box-shadow: 5px 8px #8f8f8f72;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    transform: scale(1);
+    transition: 0.8s;
+}
+
+.image img:hover{
+    transform: scale(1.1);
+}
+
+.absolute{
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.like img{
+    width: 15px;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 180px;
+    z-index: 1;
+    transform: scale(1) translateX(-0px) translateY(-5px);
+}
